@@ -35,7 +35,7 @@
             ],
             "bindings": [
                 {
-                    "name": "RPY",
+                    "name": "RPY Controller",
                     "id": "10ceb956-9f26-4213-a1fb-da83cb49f544",
                     "path": "2DVector",
                     "interactions": "",
@@ -90,7 +90,62 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "ForwardBackwards",
+                    "name": "RPY Keyboard",
+                    "id": "d58d5bca-b660-4815-b823-d249cd7229ef",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "640c3e0c-7212-439b-bcc3-6dd5d83447ef",
+                    "path": "<Keyboard>/numpad2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "c66fc82a-a542-41e0-b04b-a1324d68c6e5",
+                    "path": "<Keyboard>/numpad8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "8f743cc0-9077-4894-87b2-c68c29fefd6f",
+                    "path": "<Keyboard>/numpad6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "718d2cab-89f6-4b91-afc5-31d92f0dc7a3",
+                    "path": "<Keyboard>/numpad4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "ForwardBackwards Controller",
                     "id": "9a37355c-a75e-437f-9ee9-3436184839bc",
                     "path": "1DAxis(minValue=-0.78,maxValue=1.22)",
                     "interactions": "",
@@ -123,7 +178,40 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Lateral",
+                    "name": "ForwardBackwards Keyboard",
+                    "id": "f7d19731-a3d3-4bdd-b557-a58874131a8f",
+                    "path": "1DAxis(minValue=-0.78,maxValue=1.22)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Negative",
+                    "id": "2c6e3bd2-7d0b-4df2-aefe-25cc1580d4d3",
+                    "path": "<Keyboard>/#(S)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Positive",
+                    "id": "6f9d373f-864e-4d3f-8934-aa0157d66b8c",
+                    "path": "<Keyboard>/#(W)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Lateral Controller",
                     "id": "dac1b63e-479b-400f-a3f8-315bbcb62b01",
                     "path": "1DAxis",
                     "interactions": "",
@@ -148,6 +236,39 @@
                     "name": "positive",
                     "id": "fe50169c-bfd4-4c5f-b7a8-a3d8c53a0445",
                     "path": "<Gamepad>/rightStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pedals",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Lateral Keyboard",
+                    "id": "d026c2ac-ba69-4c6a-ac05-3edf20b18d3f",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pedals",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Negative",
+                    "id": "683605df-08a5-4125-ba93-244616c6abdf",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pedals",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Positive",
+                    "id": "9e152edf-0269-48ff-97a1-d86ae2d66cf7",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
